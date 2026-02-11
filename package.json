@@ -1,0 +1,22 @@
+{
+  "name": "exo5_ci",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "echo 'Building the project...' && mkdir -p dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/francois-sa-semifir/exo5_ci.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/francois-sa-semifir/exo5_ci/issues"
+  },
+  "homepage": "https://github.com/francois-sa-semifir/exo5_ci#readme"
+}
