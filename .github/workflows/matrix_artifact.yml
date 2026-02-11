@@ -28,7 +28,7 @@ jobs:
           - os: ubuntu-latest
             node-version: 16
           - os: windows-latest
-            node-version: 18 
+            node-version: 18
           - os: macos-latest
             node-version: 20
     steps:
