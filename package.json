@@ -21,7 +21,7 @@
   },
   "homepage": "https://github.com/francois-sa-semifir/exo5_ci#readme",
   "devDependencies": {
-    "cpy-cli": "^7.0.0",
-    "rimraf": "^6.1.2"
+    "rimraf": "^5.0.6",
+    "cpy-cli": "^5.0.0"
   }
 }
