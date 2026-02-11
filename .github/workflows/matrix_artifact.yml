@@ -24,7 +24,7 @@ jobs:
         include:
           - os: windows-latest
             node-version: 22
-        excludes:
+        exclude:
           - os: ubuntu-latest
             node-version: 16
           - os: windows-latest
