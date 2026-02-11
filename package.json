@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "node -e \"require('fs').mkdirSync('dist',{recursive:true})\" && echo Building the project..."
+    "build": "node -e \"const fs=require('fs'); fs.mkdirSync('dist',{recursive:true}); fs.writeFileSync('dist/index.html','Build OK');\""
   },
   "repository": {
     "type": "git",
