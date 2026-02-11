@@ -1,6 +1,7 @@
 name: Matrix & Artifact
 
 on:
+  workflow_dispatch:
   push:
     branches:
       - main
